@@ -8,6 +8,7 @@ public class FirstGUIApp {
         int age = Integer.parseInt((JOptionPane.showInputDialog("Enter your age: ")));
         String stream = JOptionPane.showInputDialog("Enter your stream: ");
 
-        JOptionPane.showMessageDialog(null, "Hi " + name + ", you are " + age + " years old and you are studying " + stream + ".");
+        JOptionPane.showMessageDialog(null, "Hi " + name + ", you are "
+                + age + " years old and you are studying " + stream + ".");
     }
 }
